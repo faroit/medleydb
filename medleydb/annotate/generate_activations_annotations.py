@@ -11,9 +11,9 @@ import soundfile as sf
 
 def create_activation_annotation(
     mtrack,
-    win_len=2048,
+    win_len=4096,
     lpf_cutoff=0.075,
-    theta=.4,
+    theta=0.15,
     binarize=False
 ):
 
